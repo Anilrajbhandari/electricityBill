@@ -31,8 +31,10 @@ if (isset($_POST['login'])){
 <html>
 <head>
 	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
-<body>
+<body class ="bg-danger">
+<div class= "container">
 	<form action="#"  method="post">
 		<label>Username</label>
 		<input type ="text"placeholder="enter valid username"name='username'>
@@ -52,8 +54,11 @@ if (isset($_POST['login'])){
 		<a href="#bottom">Sign Up</a>
 		
 	</form>
+	</div>
 
+<div class="container">
 	<h1>Sign Up</h1>
+
 	<form> 
 		<label>Name</label>
 		<input type="text" name="name"placeholder="enter ur name">
@@ -75,6 +80,8 @@ if (isset($_POST['login'])){
 		<a href="#top">Login </a>
 
 	</form>
+	</div>
+
 
 
 </body>
