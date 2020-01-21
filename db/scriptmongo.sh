@@ -1,0 +1,2 @@
+#!/bin/mongod
+show dbs

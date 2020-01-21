@@ -1,0 +1,17 @@
+use <database_name> #to create database and if it already exist then use it
+db  #shows the current db
+db.<collection_name>.inert({"<key>":"<value>"})
+show collections    #list the collections inside the db
+db.<collection_name>.find()    #show data inside collection
+db.<collection_name>.drop() #delete a collection from a database
+
+//
+db.<collection_name>.find().pretty()
+db.<collection_name>.find({title:'title 2'}).pretty()
+
+
+/*
+^ match the first character
+$ match the last character
+//i makes case insesitive
+*/
